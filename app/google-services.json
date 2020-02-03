@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1033339578813",
+    "firebase_url": "https://besafeapp-51475.firebaseio.com",
+    "project_id": "besafeapp-51475",
+    "storage_bucket": "besafeapp-51475.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033339578813:android:34482f9cf466e84b",
+        "android_client_info": {
+          "package_name": "edu.virginia.cs4720.besafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033339578813-goclp05vdh7jijilqvv248u2ilhpliqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.virginia.cs4720.besafe",
+            "certificate_hash": "fa0a540730f66d0fc06b4c6c4c660058ffcd63ed"
+          }
+        },
+        {
+          "client_id": "1033339578813-ojlkodem6ro01p9p1l6jljj7da3prpfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFNk4EkvNYd7digDWmg_HyxQCNxQ1cHGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033339578813-ojlkodem6ro01p9p1l6jljj7da3prpfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

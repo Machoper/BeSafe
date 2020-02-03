@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="match_parent" >
+    <!--android:onClick="call" -->
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="John Doe"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:fontFamily="@font/comic_sans" />
+
+    <ImageButton
+        android:id="@+id/primaryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_star"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvName"
+        android:text="(434) 466-5888"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/comic_sans" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#575757"
+        android:layout_alignBaseline="@+id/tvPhone"
+        android:layout_alignBottom="@+id/tvPhone"
+        android:paddingLeft="20dp"
+        android:layout_toRightOf="@+id/tvPhone"
+        android:layout_alignParentRight="true"
+        android:text="John@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/comic_sans" />
+
+</RelativeLayout>
